@@ -1,0 +1,10 @@
+*.DS_Store
+*.db
+*.svn
+*.swp
+*.swn
+*.swo
+*.bat
+.vscode/*
+.idea/*
+node_modules

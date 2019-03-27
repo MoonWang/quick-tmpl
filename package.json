@@ -1,0 +1,27 @@
+{
+  "name": "quick-tmpl",
+  "version": "1.0.0",
+  "description": "一个可以快速创建自定义模板的命令行工具",
+  "main": "index.js",
+  "bin": {
+    "tmpl": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "tmpl -s spring -t 2019春日活动"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonWang/quick-tmpl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoonWang/quick-tmpl/issues"
+  },
+  "homepage": "https://github.com/MoonWang/quick-tmpl#readme",
+  "dependencies": {
+    "lodash.template": "^4.4.0",
+    "yargs": "^13.2.2"
+  }
+}
