@@ -7,7 +7,8 @@
     "tmpl": "bin/cli.js"
   },
   "scripts": {
-    "test": "tmpl -s spring -t 2019春日活动"
+    "test": "tmpl -s spring -t 2019春日活动",
+    "delate": "tmpl -s spring -D"
   },
   "repository": {
     "type": "git",
